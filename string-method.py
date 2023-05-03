@@ -39,3 +39,4 @@ print(str2.istitle())
 # Returns flase cause not every word is capitalize
 print(str2.startswith("How"))
 # Returns true cause str2 starts with "How"
+print(str2.swapcase())
