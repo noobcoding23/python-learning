@@ -31,3 +31,11 @@ print(str1.isprintable())
 str1 = "    "
 print(str1.isspace())
 # Returns true when there is only white spaces or tabs but if there is an alphanumeric value than it returns false
+str1 = "Hello World!"
+print(str1.istitle())
+# Retuns true cause each word is capitalize
+str2 = "How are you?"
+print(str2.istitle())
+# Returns flase cause not every word is capitalize
+print(str2.startswith("How"))
+# Returns true cause str2 starts with "How"
