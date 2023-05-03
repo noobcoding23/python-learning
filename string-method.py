@@ -40,3 +40,6 @@ print(str2.istitle())
 print(str2.startswith("How"))
 # Returns true cause str2 starts with "How"
 print(str2.swapcase())
+# Swapes the case of the texts
+print(str2.title())
+# Swapes the case of the texts to title case means capitalize each word
