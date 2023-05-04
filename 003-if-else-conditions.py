@@ -21,3 +21,5 @@ elif (num == 999):
     print("the number is special")
 else:
     print("The number is positive")
+    if (num <= 10):
+        print("The number is between 1-10")
