@@ -39,3 +39,4 @@ testTp = (1, 2, 2, 3, 4, 2, 70)
 print(testTp.count(2), "<-- Number of time 2 is repeated in the tuple")
 print(testTp.index(2), "<-- Returns the index of 2 in the first occurence")
 print(testTp.index(2, 3, 6), "<-- Returns the index of 2 in between the start and end index")# index(ELEMENT, START, END) <-Syntax
+print(len(nameOfPeople), "<- Length of the tuple") # Figuring the length of the tuple by using len method
