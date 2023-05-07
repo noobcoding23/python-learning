@@ -40,6 +40,3 @@ lst = [i*i for i in range(10)] # Adding extra parameters in list
 print(lst)
 lst = [i*i for i in range(10) if i%2==0] # Adding conditions in list
 print(lst)
-
-# ----------List Methods in python------------
-
