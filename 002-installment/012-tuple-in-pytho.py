@@ -6,7 +6,7 @@ tup = (1,)
 print(type(tup), tup, "<- this becomes a tuple") # To tell python that you are creating a one data tuple you have to use one comma after the data
 print()
 print("#"*50)
-print("<--Tuples are unchangeble in nature. So there is no method to change data in a tuple-->")
+print("<--Tuples are unchangeble/immutable in nature. So there is no method to change data in a tuple-->")
 print("#"*50)
 print()
 tupL = (56, 77, 89)
