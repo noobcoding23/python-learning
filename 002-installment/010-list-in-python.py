@@ -1,4 +1,4 @@
-marks = [46, 38, 44, "John Doe", True] # Can be added different types of datatype
+marks = [46, 38, 44, "John Doe", True, 48] # Can be added different types of datatype
 print()
 print(marks)
 print(type(marks)) # Printing the datatype of marks
@@ -30,4 +30,13 @@ else:
 print(marks) # Printing marks list full
 print(marks[:]) # Printing marks list full
 print(marks[1:-1]) # Index printing start and end negative index
-print(marks[1:4]) # Index printing start and end positive index
+print(marks[1:6]) # Index printing start and end positive index
+print(marks[0:5:2]) # Using JumpIndex in list which skips the data inside list
+
+# List comprehension
+lst = [i for i in range(10)] # Generating List
+print(lst)
+lst = [i*i for i in range(10)] # Adding extra parameters in list
+print(lst)
+lst = [i*i for i in range(10) if i%2==0] # Adding conditions in list
+print(lst)
