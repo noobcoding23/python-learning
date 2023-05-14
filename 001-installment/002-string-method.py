@@ -5,7 +5,7 @@ print(a.upper())
 print(a.lower())
 print(a.rstrip("!"))
 print(a.replace("Jugal", "Harry"))
-print(a.split(" "))
+print(a.split(" "), "<--")
 sentence = "there is something fishy"
 print(sentence.capitalize())
 print(sentence.center(50))
