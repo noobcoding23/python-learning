@@ -5,6 +5,7 @@ print(a.upper())
 print(a.lower())
 print(a.rstrip("!"), "<--rstrip")
 print(a.replace("Jugal", "Harry"))
+print(a.replace("J", ""))
 print(a.split(" "), "<--Creates list out of string with the parameter give")
 sentence = "there is something fishy"
 print(sentence.capitalize())

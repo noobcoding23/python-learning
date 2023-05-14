@@ -72,7 +72,7 @@
 # What?
 # ''') # Multiple line string
 # a = "B
-'''
+
 a = "Hello World!"
 print(a[0:6]) # Returns Hello # Including 0 but not 6
 print(a[:6]) # Returns Hello # Including 0 but not 6
@@ -89,7 +89,7 @@ print(a[-3:-1])
 for i in a:
     print(i) # The i is a new variable
 
-'''
+
 '''
 nm = "Harry"
 print(nm[-4:-2])
