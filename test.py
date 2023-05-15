@@ -11,11 +11,23 @@ def replc(x):
 a = "Hello!"
 print(replc(a))
 a = "HellofxWorld!fxHowfxarefxyou?"
-a.split("fx")
+a = a.split("fx")
 # print(a[0])
 # print(a[0][:2])
 # print(a[0].replace(a[0][:2], ""))
 print(a)
-for x in a:
-    a += x
-print(a)
+newa = ""
+for x in range(len(a)):
+    newa += a[x]
+print(newa)
+char = "Hello World!"
+for a in char:
+    print(a, end="")
+print(newa)
+ran = ""
+for a in range(0, len(newa)):
+    ran += newa[len(newa)-1-a]
+print(ran)
+store = ran[0:3] + "MM" + ran[4:7]
+print(store)
+print(store[-1])
