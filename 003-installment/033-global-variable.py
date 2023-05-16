@@ -2,7 +2,7 @@ x = 99
 print(x)
 
 def hello():
-    # global x # Using global keyword we can modify a global variable inside a function. However it is not a good practice to do that. So it is a good practice to avoide it
+    # global x # Using global keyword we can modify a global variable inside a function. However it is not a good practice to do that. So it is a good practice to avoide it/ 
     x = 66 # This a local variable cannot be accessed outside a function
     global y
     y = 9966 # This is a global variable assigned inside a function
