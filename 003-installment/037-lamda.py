@@ -27,7 +27,7 @@ def avg():
         text = "You have entered really a big number! This program will terminate automatically!"
     return text
 
-
+# Below the function is taking a function as an argument and this functions are called higher order function
 def appl(fx, value): # here fx is a function inside a function
     return 6 + fx(value)
 
